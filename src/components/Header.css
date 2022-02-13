@@ -1,0 +1,19 @@
+ nav {
+    display: flex;
+    justify-content: center;
+    min-height: 8vh;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 20%;
+    color: black
+}
+
+.link {
+   
+    font-size: 20px; 
+
+}
