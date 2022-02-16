@@ -39,7 +39,6 @@ const Register = () => {
                 style={{
                   lineHeight: '32px',
                 }}
-                disabled
               >
                 B
               </Checkbox>
