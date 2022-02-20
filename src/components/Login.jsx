@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Login.css';
 import { Form, Input, Button } from 'antd';
 
@@ -14,11 +14,13 @@ const Login = () => {
       }}
     >
       <Form.Item label="Username" name="username">
-        <Input />
+        <Input placeholder="Email" />
       </Form.Item>
-      <Form.Item label="Password" name="username">
-        <Input />
+
+      <Form.Item label="Password" name="password">
+        <Input.Password placeholder="Password" />
       </Form.Item>
+
       <Form.Item
         wrapperCol={{
           offset: 11,
